@@ -4,7 +4,7 @@
   "description": "A demo of Git best practices to the lovely Sept cohort",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "eslint ./ --fix",
     "prepare": "husky install"
   },
@@ -29,6 +29,8 @@
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
-    "husky": "^7.0.4"
+    "eslint-plugin-jest": "^25.3.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.2"
   }
 }

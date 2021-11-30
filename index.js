@@ -9,8 +9,13 @@ const sayFaveColour = (person) => {
     Joey: 'violet',
   };
 
-  console.log(`${person}'s favourite colour is ${faveColours[person]}.`);
+  const string = `${person}'s favourite colour is ${faveColours[person]}.`;
+
+  console.log(string);
+  return string;
 };
 
 sayFaveColour('August');
 sayFaveColour('Haz');
+
+module.exports = { sayFaveColour };
