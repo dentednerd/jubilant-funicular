@@ -1,6 +1,6 @@
 const sayFaveColour = (person) => {
   const faveColours = {
-    August: 'purple',
+    August: 'lightcoral',
     Haz: 'atomic tangerine',
     Poonam: 'ube',
     Paul: 'viridian green',
