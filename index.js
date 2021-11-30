@@ -18,5 +18,6 @@ const sayFaveColour = (person) => {
 sayFaveColour('August');
 sayFaveColour('Haz');
 sayFaveColour('Ant');
+sayFaveColour('Poonam'); // oh no, a change from elsewhere!
 
 module.exports = { sayFaveColour };
