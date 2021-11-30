@@ -17,5 +17,6 @@ const sayFaveColour = (person) => {
 
 sayFaveColour('August');
 sayFaveColour('Haz');
+sayFaveColour('Ant');
 
 module.exports = { sayFaveColour };
