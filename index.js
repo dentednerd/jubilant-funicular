@@ -6,6 +6,7 @@ const sayFaveColour = (person) => {
     Paul: 'viridian green',
     Ant: 'deeppink',
     Sarah: 'cobalt',
+    Joey: 'violet',
   };
 
   console.log(`${person}'s favourite colour is ${faveColours[person]}.`);
